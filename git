@@ -1,0 +1,22 @@
+"""
+git instructions
+- download git on ur device if you dont have it to program files it will automatically set it to ur global path if not configure that as well
+- go to terminal and enter "cd" and drag and drop the program folder into the terminal. this will auto-populate the path file for u
+- next run "git init" to initialize empty git repo
+- check status by using "git status"
+	- if there are red files present, that means they aren't staged and need to be for a commit
+	- type "git add ." to add all the files or specify which files you want to add to staging
+	- then run "git status" again to see if the files turn green (meaning they are staged)
+- next run a "git commit -m "MESSAGE"" type in any message you want to describe what commit is performed then
+- then run a "git log --oneline" to see the commits that were created and where the ehad of the commits is
+- finally run "git remote add origin <repo url>". to get repo url create a repo in github and then copy the repo link from the code tab and paste in terminal w that command
+- after everything is set, then push the project into github by saying "git push -u origin main" to put it in main branch or whatever default branch u have. it could be master
+
+from here on out follow same commands everytime to save changes to github...
+- "git status"
+- "git add ." to stage
+- "git status" again
+- "git commit -m "<message>""
+- "git log --oneline" to check if git head is on recent commit
+- "git push -u origin master" to push to repo on github
+"""
